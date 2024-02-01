@@ -1,0 +1,15 @@
+class GeodeCli < Formula
+  desc "CLI tool for Geode"
+  homepage "https://geode-sdk.org"
+  url "DOWNLOAD_URL"
+  sha256 "HASH"
+  license "BSL-1.0"
+
+  def install
+    bin.install "geode"
+  end
+
+  test do
+    system "#{bin}/geode", "--version"
+  end
+end

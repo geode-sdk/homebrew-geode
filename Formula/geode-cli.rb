@@ -1,8 +1,8 @@
 class GeodeCli < Formula
   desc "CLI tool for Geode"
   homepage "https://geode-sdk.org"
-  url "https://github.com/geode-sdk/cli/releases/download/v3.4.0/geode-cli-v3.4.0-mac.zip"
-  sha256 "9ff48df766707b1ab5e1aeb5ebcfa46fd4a3425e10d7ca24ef37f6c51042f4c8"
+  url "https://github.com/geode-sdk/cli/releases/download/v3.5.0/geode-cli-v3.5.0-mac.zip"
+  sha256 "9976092b9a8f636f619ff9f47bca0cc2ae998f6b65b18b9319aea2fbb9584bf4"
   license "BSL-1.0"
 
   def install
